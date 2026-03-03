@@ -2,9 +2,9 @@ import React from "react";
 import { FaPlus } from "react-icons/fa6";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar  bg-white text-black shadow-2xl">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">CS — Ticket System</a>
+        <a className=" text-xl font-bold">CS — Ticket System</a>
       </div>
       <div className="flex-none justify-center items-center">
         <ul className="menu menu-horizontal px-1">
