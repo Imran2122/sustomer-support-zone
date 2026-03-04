@@ -1,7 +1,7 @@
 import React from "react";
 import vector from "../assets/vector1.png";
 
-const Banner = ({selectedTicket}) => {
+const Banner = ({selectedTicket,resolvedTicket}) => {
   return (
     <div className="flex mt-4 gap-2">
       {/* 1st Card start*/}
@@ -38,7 +38,7 @@ const Banner = ({selectedTicket}) => {
         {/* content */}
         <div className="relative text-center">
           <p className="text-lg">Resolved</p>
-          <h2 className="text-4xl font-bold">0</h2>
+          <h2 className="text-4xl font-bold">{resolvedTicket.length}</h2>
         </div>
 
         {/* Right image */}

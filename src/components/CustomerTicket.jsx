@@ -3,7 +3,7 @@ import TicketCart from "./TicketCart";
 
 const CustomerTicket = ({ fetchTicketData,handleTicket }) => {
   const tickets = use(fetchTicketData);
-  console.log(tickets);
+
   return (
    <div>
      <h2 className="font-bold text-2xl mt-4">Customer Tickets</h2>
