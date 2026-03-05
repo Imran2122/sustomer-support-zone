@@ -34,7 +34,7 @@ Using Context API
 
 Answer:
 Event handlers are connected to functions via props. Common events include:
-onClick,onChangeon,Submit
+onClick,onChange,onSubmit
 These events are linked to functions to perform actions when triggered
 
 
