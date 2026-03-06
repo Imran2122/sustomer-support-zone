@@ -4,7 +4,6 @@ import { FaPlus } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div className="navbar bg-white text-black shadow-2xl px-4">
-
       {/* Mobile Menu */}
       <div className="navbar-start">
         <div className="dropdown">
@@ -29,28 +28,52 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52"
           >
-            <li><a>Home</a></li>
-            <li><a>FAQ</a></li>
-            <li><a>Changelog</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Download</a></li>
-            <li><a>Contact</a></li>
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>FAQ</a>
+            </li>
+            <li>
+              <a>Changelog</a>
+            </li>
+            <li>
+              <a>Blog</a>
+            </li>
+            <li>
+              <a>Download</a>
+            </li>
+            <li>
+              <a>Contact</a>
+            </li>
           </ul>
         </div>
 
         {/* Logo */}
-        <a className="text-xl font-bold">CS — Ticket System</a>
+        <a className="text-sm md:text-xl font-bold">CS — Ticket System</a>
       </div>
 
       {/* Desktop Menu */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a>Home</a></li>
-          <li><a>FAQ</a></li>
-          <li><a>Changelog</a></li>
-          <li><a>Blog</a></li>
-          <li><a>Download</a></li>
-          <li><a>Contact</a></li>
+          <li>
+            <a>Home</a>
+          </li>
+          <li>
+            <a>FAQ</a>
+          </li>
+          <li>
+            <a>Changelog</a>
+          </li>
+          <li>
+            <a>Blog</a>
+          </li>
+          <li>
+            <a>Download</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
         </ul>
       </div>
 
@@ -60,7 +83,6 @@ const Navbar = () => {
           <FaPlus /> New Ticket
         </button>
       </div>
-
     </div>
   );
 };

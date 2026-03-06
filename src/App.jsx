@@ -40,7 +40,7 @@ function App() {
 
       {/* customer ticket */}
       <Suspense fallback={<Skeleton></Skeleton>}>
-        <div className="flex justify-between">
+        <div className="md:flex justify-between">
           <CustomerTicket
             fetchTicketData={fetchTicketData}
             handleTicket={handleTicket}
